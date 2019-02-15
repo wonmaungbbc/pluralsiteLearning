@@ -2,7 +2,6 @@
 
 // for loop
 // for (let i = 6; i < 12; i++){
-
 //     console.log(i)
 // }
 
@@ -12,6 +11,18 @@
 //   console.log(count);
 //   count++;
 // }
+
+// Storing Multiple Values in Arrays
+let NumberArray = [1,2,9,8];
+let stringArray = ['Won','Maung','Thein']
+console.log(`Get the first string from stringArray : ${stringArray[0]}`)
+console.log(NumberArray)
+
+
+
+
+
+
 
 let suits = ["hearts", "spades", "shapes"];
 let values = ["Ace", "Ten", "Queen", "four", "elel", "ieooe", "ieiei"];
@@ -24,7 +35,7 @@ let values = ["Ace", "Ten", "Queen", "four", "elel", "ieooe", "ieiei"];
 // }
 
 function showMessage(message, anotherMessage, favnumber) {
-  console.log(`${message} ${anotherMessage}  ${favnumber}`);
+  // console.log(`${message} ${anotherMessage}  ${favnumber}`);
 }
 
 showMessage("Hello", "I am Won. Hello World", 77);
@@ -44,13 +55,13 @@ function getNextCard() {
   return deck.shift();
 }
 
-console.log(getNextCard(), getNextCard(), getNextCard());
+// console.log(getNextCard(), getNextCard(), getNextCard());
 
-console.log(deck);
+// console.log(deck);
 
 let resultofMath = Math.random() * 69;
 resultofMath = Math.trunc(resultofMath);
-console.log(resultofMath);
+// console.log(resultofMath);
 
 let resultDate = new Date().toDateString();
-console.log(resultDate)
+// console.log(resultDate)
