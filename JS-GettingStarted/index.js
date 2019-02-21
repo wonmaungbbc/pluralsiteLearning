@@ -16,7 +16,7 @@
 let NumberArray = [1,2,9,8];
 let stringArray = ['Won','Maung','Thein']
 console.log(`Get the first string from stringArray : ${stringArray[0]}`)
-console.log(NumberArray)
+console.log(NumberArray.length)
 
 
 
